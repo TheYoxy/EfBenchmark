@@ -1,4 +1,4 @@
 ﻿using BenchmarkDotNet.Running;
-using System.Reflection;
+using EfBenchmark;
 
-BenchmarkRunner.Run(Assembly.GetCallingAssembly());
+BenchmarkRunner.Run<Benchmark>();
