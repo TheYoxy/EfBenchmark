@@ -1,4 +1,4 @@
-﻿namespace ef_update;
+﻿namespace EfBenchmark;
 
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Configs;
